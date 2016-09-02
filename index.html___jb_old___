@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+
+        .carousel-inner
+        {
+            width: 100%;
+            max-height: 300px;
+
+        }
+
+        .tales
+        {
+            width: 100%;
+            margin: auto 0;
+        }
+
+        .panel
+        {
+            margin-top:10px;
+        }
+
+        #panel_heading_text_1
+        {
+            font-weight: bold;
+            font-size: large;
+        }
+
+        .btn
+        {
+            width: 100px;
+        }
+
+        #site_logo
+        {
+            font-size: 50px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-default fixed-top">
+    <div class="container">
+
+
+        <div class="navbar-header">
+        <a class="navbar-brand" href="/"><strong id="site_logo">Coffee</strong></a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#first-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="first-nav">
+
+
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home<span class="sr-only">(current)</span> </a> </li>
+            <li><a href="#">Essentials</a> </li>
+
+        </ul>
+            <form class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+
+           <ul class="nav navbar-nav navbar-right">
+
+               <li class="dropdown">
+                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                       <span class="glyphicon glyphicon-user"></span> Login<span class="caret"></span> </a>
+
+                   <ul class="dropdown-menu">
+                       <li><a href="#">Sing In</a> </li>
+                       <li><a href="#">Action</a> </li>
+                       <li><a href="#">Another action</a> </li>
+                       <li role="seperator" class="divider"></li>
+                       <li><a href="#">Seperated link</a> </li>
+                   </ul>
+               </li>
+
+
+
+
+
+
+
+               <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+
+
+           </ul>
+
+
+    </div><!--end of the navbar-header-->
+
+
+
+    </div><!--end of the container-->
+</nav><!-- end of the nav-->
+
+
+<div class="container" id="carousel_number1">
+
+    <div id="myCarousel1" class="carousel slide " data-ride="carousel">
+        <!--indicator-->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel1" data-slide-to="1"></li>
+            <li data-target="#myCarousel1" data-slide-to="2"></li>
+            <li data-target="#myCarousel1" data-slide-to="3"></li>
+            <li data-target="#myCarousel1" data-slide-to="4"></li>
+        </ol>
+        <!--wrapper for slides-->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="resource/images/Coffee-1.jpg" alt="coffee" class="tales">
+            </div>
+
+            <div class="item">
+                <img src="resource/images/Coffee_2.jpg" alt="coffee" class="tales">
+            </div>
+
+            <div class="item">
+                <img src="resource/images/Coffee_3.jpg" alt="coffee" class="tales">
+            </div>
+
+            <div class="item">
+                <img src="resource/images/Coffee_4.jpg" alt="coffee" class="tales">
+            </div>
+
+            <div class="item">
+                <img src="resource/images/Coffee_5.jpg" alt="coffee" class="tales">
+            </div>
+        </div>
+
+
+
+
+
+
+    </div><!--end of the carousel-->
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <span id="panel_heading_text_1">History of Coffee</span>
+        </div><!--end of the panel heading-->
+
+        <div class="panel-body">
+            <span id="panel-body_1">
+                <p>The history of coffee goes at least as far back as the 10th century, with a number of reports and legends surrounding its first use.
+                    The native (undomesticated) origin of coffee is thought to have been Ethiopia.
+                    The earliest substantiated evidence of either coffee drinking or knowledge of the coffee tree is from the 15th century,
+                    in the Sufi monasteries of Yemen.
+                    By the 16th century, it had reached the rest of the Middle East, Persia, Turkey, Horn of Africa, and northern Africa.
+                    Coffee then spread to the Balkans, Italy and to the rest of Europe, to Indonesia and then to America.</p>
+
+                <p>For more information</p>
+
+                <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/History_of_coffee" >Wikipedia</a>
+                <a class="btn btn-primary" href="http://www.ncausa.org/About-Coffee/History-of-Coffee" >NCA</a>
+
+            </span>
+
+        </div><!--end of the panel body-->
+
+
+    </div><!--end of the panel-->
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
