@@ -12,7 +12,7 @@
         .carousel-inner
         {
             width: 100%;
-            max-height: 300px;
+            max-height: 280px;
 
         }
 
@@ -40,9 +40,21 @@
 
         #site_logo
         {
-            font-size: 50px;
+            font-size: 30px;
         }
 
+        #nav_serchbar1
+        {
+            width: 400px;
+        }
+
+        #heading2
+        {
+            text-align: center;
+
+            font-size: 30px;
+            font-style: oblique;
+        }
 
 
     </style>
@@ -74,7 +86,7 @@
         </ul>
             <form class="navbar-form navbar-left">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
+                    <input type="text" class="form-control" placeholder="Search" id="nav_serchbar1">
 
                 </div>
                 <button type="submit" class="btn btn-default">Submit</button>
@@ -84,7 +96,7 @@
 
                <li class="dropdown">
                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                       <span class="glyphicon glyphicon-user"></span> Login<span class="caret"></span> </a>
+                       <span class="glyphicon glyphicon-user"></span> Login<!--one space necessary before Login--><span class="caret"></span> </a>
 
                    <ul class="dropdown-menu">
                        <li><a href="#">Sing In</a> </li>
@@ -96,12 +108,22 @@
                </li>
 
 
+               <li class="dropdown">
+                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                       <span class="glyphicon glyphicon-shopping-cart"></span> Cart<!--one space necessary before Cart--><span class="caret"></span>
+                   </a>
+
+                   <ul class="dropdown-menu">
+                       <li><a href="#">Your cart </a> </li>
+                   </ul>
+
+               </li>
 
 
 
 
 
-               <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+
 
 
            </ul>
@@ -156,6 +178,8 @@
 
     </div><!--end of the carousel-->
 
+
+    <!--Panel -->
     <div class="panel panel-default">
         <div class="panel-heading">
             <span id="panel_heading_text_1">History of Coffee</span>
@@ -181,6 +205,31 @@
 
 
     </div><!--end of the panel-->
+
+
+
+    <p id="heading2">-Shop By-</p>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="jumbotron">Coffee type</div>
+
+        </div>
+
+        <div class="col-sm-4">
+            <div class="jumbotron">By region</div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="jumbotron">Accessories</div>
+        </div>
+    </div><!--end of the row-->
+
+
+
+
+
+
 
 
 
