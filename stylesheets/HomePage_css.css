@@ -1,0 +1,76 @@
+.carousel-inner
+{
+    width: 100%;
+    max-height: 280px;
+
+}
+
+.tales
+{
+    width: 100%;
+    margin: auto 0;
+}
+
+.panel
+{
+    margin-top:10px;
+}
+
+.panel_heading_text_1
+{
+    font-weight: bold;
+    font-size: large;
+}
+
+ .btn-primary
+{
+    width: 200px;
+}
+
+ .btn-default
+
+ {
+     width:100px;
+ }
+
+#site_logo
+{
+    font-size: 30px;
+}
+
+#nav_serchbar1
+{
+    width: 400px;
+}
+
+#heading2
+{
+    text-align: center;
+
+    font-size: 30px;
+    font-style: oblique;
+}
+
+
+
+.panel-content img
+{
+    width:140px;
+    height:140px;
+}
+
+.panel-content
+{
+    align-content: center;
+}
+
+#img_content_1,#img_content_2, #img_content_3, #img_content_4,#panel_button4,#panel_button3,#panel_button2,#panel_button1
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.container-fluid
+{
+    background-color: #767676;
+}
