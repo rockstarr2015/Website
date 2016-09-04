@@ -80,10 +80,7 @@
     background-color: #767676;
 }
 
-body .modal
+.modal-footer a
 {
-
-
-
-
+    text-align: left;
 }
