@@ -49,7 +49,13 @@
                        <span class="glyphicon glyphicon-user"></span> Login<!--one space necessary before Login--><span class="caret"></span> </a>
 
                    <ul class="dropdown-menu">
-                       <li><a href="#">Sing In</a> </li>
+                       <li>
+
+                           <a href="#" data-toggle="modal" data-target="#myModal">Sing In</a>
+
+                       </li>
+
+
                        <li><a href="#">Action</a> </li>
                        <li><a href="#">Another action</a> </li>
                        <li role="seperator" class="divider"></li>
@@ -70,7 +76,37 @@
                </li>
 
            </ul>
+
+
+            <!--Modal-->
+
+
+
+
+
         </div><!--end of the navbar-header-->
+
+        <div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dailog" role="document">
+                <div class="modal-content modal-lg">
+                    <div class="modal-header ">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel1">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        ...
+
+                    </div>
+                    <div class="modal-footer ">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div><!--end of the model footer-->
+                </div><!--end of the modal-header-->
+
+            </div><!--end of the modal dialog-->
+        </div><!--end of the modal div -->
+
+
 
     </div><!--end of the container-->
 </nav><!-- end of the nav-->
@@ -263,6 +299,7 @@
     </div><!--end of the container-->
 
 </div><!--end of the container-fluid-->
+
 
 
 </body>
